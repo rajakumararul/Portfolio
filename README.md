@@ -56,17 +56,4 @@ pre-filtered.
 `photo: /images/<file>.jpg` in `profile.yaml`.
 
 ## Deployment
-
-### GitHub Pages
-1. Push the repository to GitHub (branch `main`). Repository: `rajakumararul.github.io`
-   (a user site, served at `https://rajakumararul.github.io/`).
-2. In **Settings → Pages**, set **Source** to **GitHub Actions**.
-3. `.github/workflows/deploy.yml` builds and publishes on every push. The site
-   URL and base path come from GitHub automatically.
-
-### Custom domain (GoDaddy), later
-1. In **Settings → Pages → Custom domain**, enter e.g. `www.example.com`.
-2. In GoDaddy DNS, add:
-   - `A` records for `@` → `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
-   - `CNAME` for `www` → `<github-username>.github.io`
-3. Once DNS resolves, enable **Enforce HTTPS**. No code changes are needed.
+Vercel hosts the site. vercel.json runs npm run build and publishes dist/. Automatic deployment is turned off for the develop branch. To inspect that bundle locally, run npm run build and then npx serve -s dist.
