@@ -21,9 +21,9 @@
     - Quantum gates
     - Basic quantum operations
   # ▼▼ ENTER THE LIVE QUANTUM LEARNING LAB URL HERE, e.g. "https://…" ▼▼
-  liveUrl: "https://rajakumararul.github.io/quantum-learning-lab/"
+  liveUrl: "https://vqtf.rajakumararul.in/"
   # ▼▼ Optional: GitHub repository URL ▼▼
-  sourceUrl: "https://github.com/rajakumararul/quantum-learning-lab"
+  # sourceUrl: "https://github.com/rajakumararul/quantum-learning-lab"
   areas: [quantum-computing]
   featured: true
   order: 1
