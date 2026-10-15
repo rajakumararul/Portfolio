@@ -80,7 +80,7 @@
   resourceType: repository
   title: Quantum Learning Lab — source code
   description: Open-source repository of the Quantum Learning Lab.
-  url: "https://github.com/rajakumararul/quantum-learning-lab"
+  url: "https://vqtf.rajakumararul.in/"
   areas: [quantum-computing]
   order: 2
 
